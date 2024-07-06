@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form Making by using HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body bgcolor="#33ff99" style="color:#006633;">
+ <h2 style="margin:20px;">
+  Form tag practice
+ </h2>
+ <form action="readme.md" style="padding:20px;">
+  
+   <label for="name">Name:</label><br>
+   <input type="text" name="student_name" id="name" autofocus><br>
+   
+    <label for="father's_name">Father's Name:</label><br>
+    <input type="text" name="name" id="father's_name"><br>
+   
+  <label for="mother's_name">Mother's Name:</label><br>
+  <input type="text" name="mother's_name" id="mother's_name"><br>
+   
+   <label for="roll">Roll:(pattern)</label><br>
+   <input type="number" roll="student_roll" id="roll"><br>
+   
+  <label for="weight">Your weight:</label><br>
+  <input type="number" name="weight" min="30" max="90"><br>
+  
+   <label for="dob">Date of birth:</label><br>
+   <input type="date" dob="8time" id="time"><br>
+    
+   <label for="email">Email:</label><br>
+   <input type="email" name="email_I" id="email" required><br>
+   
+  <label for="password">Password:</label><br>
+  <input type="password" name="password" placeholder="Enter Password"><br>
+  
+   <label for="fileupload">Submit your Project</label>
+   <input type="file" name="fileupload"><br>
+  
+  <label for="website">Input a URL</label><br>
+  <input type="url" name="website" placeholder="Enter URL"><br>
+   
+   <label for="query">Search anything:</label><br>
+   <input type="search" name="query" placeholder="Search"><br>
+   
+  <label for="color">Your favourite colour:</label><br>
+  <input type="color" name="color" id="color"><br><br>
+    
+   Father's monthly income:<br>
+    10&dollar;<input type="range" name="income" min="10000" max="100000">50000<br>
+    
+   Gender:》
+     Male<input type="radio" value="radio1" name="radio">
+     Female<input type="radio" value="radio2" name="radio"><br>
+    <br>  
+   Group》
+      <input type="radio" value="groups" class="group" id="groups" name="group" checked>
+     <label for="groups" class="group-label">Science</label>
+      <input class="group" type="radio" value="groupc" id="groupc" name="group">
+     <label for="groupc" class="group-label">Commerce</label>
+      <input type="radio" value="groupa" class="group" id="groupa" name="group">
+      <label for="groupa" class="group-label">Arts</label><br>
+     <br>
+   &lt;&gt;Skilled in computer operating
+     <input type="checkbox" value="skill" name="skills"><br><br>
+ 
+   Education board:
+     <select>
+      <option>Dhaka</option>
+      <option>Chttrogram</option>
+      <option>Rajshahi</option>
+      <option>Jassore</option>
+      <option>Dinajpur</option>
+      <option>Cumilla</option>
+      <option>Sylhet</option>
+     </select><br><br>
+   <label for="comment"></label>
+ <textarea name="comment" type="text" rows="4" cols="40" placeholder="Write about your hobby..."></textarea><br>
+    
+   <input type="submit" value="Apply" name="ok">
+   <input type="reset" value="cancel" name="clear">
+   <input type="button" value="visit the page" name="page" action="facebook.com">
+   <button type="button">Don't click here</button>
+ 
+ 
+ </form>
+</body>
+</html>

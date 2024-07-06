@@ -1,0 +1,20 @@
+.group
+{
+  display:none;
+}
+.group-label
+{
+  display:inline-block;
+  margin:5px;
+  padding:8px;
+  color:black;
+  background-color:lightgreen;
+  border-radius:15px;
+  border:1px solid green;
+}
+.group:checked+.group-label
+{
+  background-color:blue;
+  color:lavender;
+  border:none;
+}
